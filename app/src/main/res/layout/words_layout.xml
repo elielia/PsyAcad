@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="right"
+            android:weightSum="1">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="bottom|center"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/layoutOfWord">
+
+                <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/soundButton"
+                android:src="@drawable/sound"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Word"
+                    android:id="@+id/currentWordView"
+                    android:textSize="40dp"
+                    android:layout_alignBottom="@+id/soundButton"
+                    android:layout_toRightOf="@+id/soundButton"
+                    android:layout_toEndOf="@+id/soundButton"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="30dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f0f0f0"
+                android:layout_below="@+id/layoutOfWord"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/view3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="תרגום"
+                android:id="@+id/currentWordTransView"
+                android:textColor="#ff5d5b5f"
+                android:layout_below="@+id/view3"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="30dp"
+                android:visibility="visible"
+                android:layout_gravity="right" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="הסבר"
+                android:id="@+id/currentWordDescView"
+                android:layout_below="@+id/currentWordTransView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="25dp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"
+        android:id="@+id/layoutOfLevel">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Again"
+            android:id="@+id/againButton"
+            android:layout_alignTop="@+id/sosoButton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="0.25"
+            android:background="@drawable/button_border"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Good"
+            android:id="@+id/goodButton"
+            android:background="@drawable/button_border"
+            android:layout_alignTop="@+id/sosoButton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="0.25" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy"
+            android:id="@+id/easyButton"
+            android:background="@drawable/button_border"
+            android:layout_alignTop="@+id/sosoButton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="0.25" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I Know"
+            android:id="@+id/knowButton"
+            android:background="@drawable/button_border"
+            android:layout_alignTop="@+id/sosoButton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="0.25" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/layoutOfColorButtons"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_weight="0.25"
+            android:background="#f7331f"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_weight="0.25"
+            android:background="#f79c1f"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_weight="0.25"
+            android:background="#f7ea1f"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_weight="0.25"
+            android:background="#3ef71f"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="4dp" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#f79c1f"
+        android:id="@id/line1"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:visibility="visible" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Show Answer"
+        android:background="@drawable/button_border"
+        android:visibility="visible"
+        android:id="@+id/showAnswerButton"
+        android:layout_above="@id/line1" />
+
+    <ImageView
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/wordImage"
+        android:layout_marginTop="159dp"
+        android:layout_weight="4.10"
+        android:layout_below="@+id/showAnswerButton"
+        android:layout_alignRight="@id/line1"
+        android:layout_alignEnd="@id/line1" />
+
+
+</RelativeLayout>

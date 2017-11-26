@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    packagingOptions {
+        exclude 'META-INF/ASL2.0'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/MANIFEST.MF'
+        //exclude 'META-INF/DEPENDENCIES'
+
+    }
+
+    defaultConfig {
+        applicationId "bgu.psyacad"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        //multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    // compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.2.0'
+    compile 'com.android.support:support-v4:23.1.1'
+   // compile 'org.python:jython-standalone:2.7.0'
+    compile files('libs/gdata-client-1.0.jar')
+    compile files('libs/gdata-client-meta-1.0.jar')
+    compile files('libs/gdata-core-1.0.jar')
+    compile files('libs/gdata-spreadsheet-3.0.jar')
+    compile files('libs/gdata-spreadsheet-meta-3.0.jar')
+    compile files('libs/guava-18.0.jar')
+    compile files('libs/joda-time-2.9.1.jar')
+    compile files('libs/svg-android.jar')
+    compile files('libs/mail.jar')
+    compile files('libs/activation.jar')
+    compile files('libs/additionnal.jar')
+    compile files('libs/gson-2.7.jar')
+    //compile files('libs/J-Excel-1.0-SNAPSHOT.jar')
+    compile files('libs/jxl.jar')
+    //compile files('libs/jython-standalone-2.7.0.jar')
+}

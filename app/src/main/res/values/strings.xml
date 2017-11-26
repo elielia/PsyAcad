@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">PsyAcad</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="simulationDates">
+        <item>פברואר 13</item>
+        <item>אפריל 13</item>
+        <item>יולי 13</item>
+        <item>אוקטובר 13</item>
+        <item>דצמבר 13</item>
+        <item>פברואר 14</item>
+        <item>אפריל 14</item>
+        <item>אוקטובר 14</item>
+        <item>דצמבר 14</item>
+        <item>פברואר 15</item>
+        <item>יולי 15</item>
+        <item>אוקטובר 15</item>
+        <item>פברואר 16</item>
+        <item>אפריל 16</item>
+        <item>ספטמבר 16</item>
+        <item>דצמבר 16</item>
+        <item>פברואר 17</item>
+    </string-array>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_register_email">RegisterEmail</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="subject_message">ברוכ/ה הבא/ה לאקדמיה לפסיכומטרי!</string>
+    <string name="body_message">זהו גוף ההודעה של הדואר שיישלח אל הנרשם.</string>
+    <string name="sender_message">האקדמיה לפסיכומטרי</string>
+
+
+</resources>

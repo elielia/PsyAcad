@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="על האקדמיה לפסיכומטרי"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="5dp"
+                    android:id="@+id/imageView3"
+                    android:background="#f79c1f"
+                    android:layout_below="@+id/textView3"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </LinearLayout>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="האקדמיה לפסיכומטרי נוסדה בשנת 2003, וקבעה רף חדש וגבוה במיוחד באיכות קורסי ההכנה לבחינה הפסיכומטרית. שיטת הלימוד שלנו מתמקדת בפיתוח חשיבה ומיומנויות למידה, מתבססת על מחקרים מדעיים מתחומי החינוך והפסיכולוגיה, ומאפשרת להפיק את המרב מהיכולות ומהכישורים שלכם.  חשוב להתכונן לפסיכומטרי בצורה נכונה שמתאימה לכם, ואין סיבה לחשוש מפני הבחינה."
+            android:id="@+id/textView2"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp" />
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/textView2"
+            android:id="@+id/linearLayout2"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="לומדים בכיתות קטנות עד 7 תלמידים"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/textView2"
+                android:layout_alignRight="@+id/textView2"
+                android:layout_alignEnd="@+id/textView2"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/tick" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/linearLayout2"
+            android:id="@+id/linearLayout3"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="קצב התקדמות מותאם עבורכם על פי תוכנית אישית"
+                android:id="@+id/textView5"
+                android:layout_below="@+id/textView2"
+                android:layout_alignRight="@+id/textView2"
+                android:layout_alignEnd="@+id/textView2"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/tick" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/linearLayout3"
+            android:id="@+id/linearLayout4"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="הנחייה מהמורים בשיעור, בדואר אלקטרוני, במפגש אישי או בסמס"
+                android:id="@+id/textView6"
+                android:layout_below="@+id/textView2"
+                android:layout_alignRight="@+id/textView2"
+                android:layout_alignEnd="@+id/textView2"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/tick" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/linearLayout4"
+            android:id="@+id/linearLayout5"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="העצמה של היכולות האישיות שלכם"
+                android:id="@+id/textView7"
+                android:layout_below="@+id/textView2"
+                android:layout_alignRight="@+id/textView2"
+                android:layout_alignEnd="@+id/textView2"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/tick" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="אנשי הצוות שלנו"
+            android:id="@+id/textView8"
+            android:layout_below="@+id/linearLayout5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout6"
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="5dp"
+                android:id="@+id/imageView4"
+                android:background="#f79c1f"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="אנשי הצוות שלנו עוברים הכשרה מעמיקה בתחומי ההוראה, הפסיכולוגיה והחינוך. בעזרתם, תוכלו להגשים את החלום ולהגיע ליעד.  הרשת המקצועית המקיפה שאנחנו מציעים מיועדת לכל מי שמבקש לגשת לבחינה הפסיכומטרית ובעיקר לסטודנטים שדרוש להם ציון גבוה במיוחד, למשפרי ציון או ללקויי למידה."
+            android:id="@+id/textView9"
+            android:layout_below="@+id/linearLayout6"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

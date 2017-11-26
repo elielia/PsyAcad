@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#f9f9f9"
+        android:id="@+id/statsLayoutTop">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:text="סטטיסטיקה"
+        android:id="@+id/statsTitle"
+        android:layout_centerHorizontal="true"
+        android:textSize="27dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/statsLayoutTop1"
+        android:layout_below="@+id/statsLayoutTop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:text="60%"
+            android:textColor="#2e3d77"
+            android:textSize="23dp"
+            android:id="@+id/hebrewLeft" />
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="מילים שלמדתי בעברית"
+             android:gravity="center_vertical"
+        android:textSize="15dp"
+        android:layout_weight="0.5"
+             android:layout_marginRight="0dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/statsLayoutTop2"
+        android:layout_below="@+id/statsLayoutTop1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:text="60%"
+            android:textColor="#2e3d77"
+            android:textSize="23dp"
+            android:id="@+id/englishLeft" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="מילים שלמדתי באנגלית"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:layout_weight="0.5" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/statsLayoutTop3"
+        android:layout_below="@+id/statsLayoutTop2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:text="10"
+            android:textColor="#2e3d77"
+            android:textSize="23dp"
+            android:id="@+id/averageAday" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ממוצע לימוד מילים ביום"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:layout_weight="0.5" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

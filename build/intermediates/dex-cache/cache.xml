@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/libs/joda-time-2.9.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c5443ee2a55f29f8ba7e8fed463d9c53e1fd45dd">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/joda-time-2.9.1_60a2c5109f3b060ea04eea504018eebd8169ccfe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.0_7a881e6dc5b037ff73eb3db876972beee1332e71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_34ae42f12b673ceb7736f5c67b249717fa593909.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/libs/gdata-core-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6ff0dba2ad4e59fdda638b00d6773f3e48b61e16">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/gdata-core-1.0_ffb5b6025147dab01e8970617604b84999c4aa5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/libs/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/gson-2.7_d3aa9696fbdc03ffc1db0d99e106db850d3c3aad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/libs/activation.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/activation_43d92984318483b70d3682c26f7363b587066dda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.0_81ab6725697d70cc635f58a0fe181e2ff9acd7ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0_ce794e9942be609e99f009880f441fdc7b7321c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_25417e23350c7d63c0dd6b3787388c99fd4fc440.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/libs/gdata-client-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b8dabe89dcae1a48a5bd16e899b19053193c52cc">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/gdata-client-1.0_4fd3b9779160e0ad28d45dd8918e5b55cfa921bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/libs/gdata-spreadsheet-3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8c6cdc5aa2ff9e7b6a3ab9bbfaaa23538caff4a6">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/gdata-spreadsheet-3.0_e40e85a968415dfb4d748136ad17566b8b45debd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_043ef64658c1cb49b6a7a57234e08dc5f94ac089.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/libs/jxl.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7faf62e0697f7a88954622dfe8c8de33ed142ac7">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/jxl_f2e66f27b2c83c56a2ad236c4bccb55a9a5f7e4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/libs/guava-18.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/guava-18.0_b8bdc727ece42c11ce76a2a3e5750f9ca96ece62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0_c5b90028de52b2564f3168e8f4d415239d29da85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/libs/additionnal.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/additionnal_e5167328d0e3bf22bc54884a2b9facdf68020db9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.0_d295dbdb9ebb95c3970cc56bc322867ecfc64328.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/libs/mail.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/mail_f38bae9b81e914047543cf8335f7758033cfbfaa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/libs/svg-android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="da90ccda68d4c02a84b9cb01526da382522c7b0d">
+        <dex dex="/Users/ilayeliashar/Desktop/Projects/Parse-Starter-Project-1.9.4/PsyAcad/app/build/intermediates/pre-dexed/debug/svg-android_0e6bce5ae462820b4fcbff9531f90fd6053a7e5a.jar" />
+    </item>
+
+</items>
